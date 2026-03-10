@@ -1,0 +1,14 @@
+// Test mode override values (used when persist.sys.pvs.testmode=1)
+#if 1
+static const char* PVS_AUTH_DEVICE_ID_OVERRIDE = "VBVASB32501000002";
+static const char* PVS_AUTH_MAC_ADDRESS_OVERRIDE = "10c2.5a8a.5cc6";
+static const char* PVS_AUTH_FIRMWARE_VERSION_OVERRIDE = "14.03.0062";
+static const char* PVS_AUTH_MANUFACTURER_OVERRIDE = "vtv_sb3";
+static const char* PVS_AUTH_MODEL_NAME_OVERRIDE = "UIY7057LGU";
+#else
+static const char* PVS_AUTH_DEVICE_ID_OVERRIDE = "KONUHD42507031378";
+static const char* PVS_AUTH_MAC_ADDRESS_OVERRIDE = "547e.1aa1.1e09";
+static const char* PVS_AUTH_FIRMWARE_VERSION_OVERRIDE = "02.02.0160";
+static const char* PVS_AUTH_MANUFACTURER_OVERRIDE = "kaon_uhd4k";
+static const char* PVS_AUTH_MODEL_NAME_OVERRIDE = "UHD4K";
+#endif
